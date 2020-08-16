@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "743950197662",
+    "firebase_url": "https://anudip-2f781.firebaseio.com",
+    "project_id": "anudip-2f781",
+    "storage_bucket": "anudip-2f781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743950197662:android:b4e8eba79cf0c5431c2c8f",
+        "android_client_info": {
+          "package_name": "com.abhishek.anudip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743950197662-m82r4it6tjtr7ugef6u8oqabou6ma38p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCihYap4QM3_qIk0eZjY6fWlK26m63bfh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743950197662-m82r4it6tjtr7ugef6u8oqabou6ma38p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

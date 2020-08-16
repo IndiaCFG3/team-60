@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6fffa"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Person Name"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColorHint="@android:color/background_dark"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/person_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Person Mob No"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColorHint="@android:color/background_dark"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/person_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/background_dark"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:hint="Person Email-id"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/input_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Rate in between 1 to 5"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColorHint="@android:color/background_dark"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@android:color/background_dark"
+        android:hint="Rate in between 1 to 5"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/input_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@android:color/background_dark"
+        android:hint="Rate in between 1 to 5"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/input_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Rate in between 1 to 5"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:textColorHint="@android:color/background_dark"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/input_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Rate in between 1 to 5"
+        android:textColorHint="@android:color/background_dark"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        android:text="Submit"
+        android:textColor="@android:color/background_dark" />
+
+
+</LinearLayout>
