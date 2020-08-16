@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="Username"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
         android:padding="10dp" />
 
     <EditText
@@ -29,6 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="Full name"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
         android:padding="10dp" />
 
     <EditText
@@ -38,6 +42,8 @@
         android:layout_marginTop="15dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
         android:padding="10dp" />
 
     <EditText
@@ -47,6 +53,8 @@
         android:layout_marginTop="15dp"
         android:hint="Password"
         android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
         android:padding="10dp" />
 
     <Button
