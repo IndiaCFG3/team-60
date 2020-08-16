@@ -1,6 +1,7 @@
 from django.db import models
 
 # Create your models here.
+
 from django.db import models
 
 class mob_login(models.Model):
@@ -39,3 +40,4 @@ class op_manager(models.Model):
 class op_to_mob(models.Model):
     op_name = models.CharField(max_length=100)
     mob_name=models.CharField(max_length=100)
+
